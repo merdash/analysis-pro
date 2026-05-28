@@ -34,19 +34,7 @@ import {
   PlusSquare,
   Share
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
-import { domToPng } from 'modern-screenshot';
-import { fetchBinanceData } from './dataService';
-import { OhlcData, calculateFractals } from './calculations';
-
-import ReactMarkdown from 'react-markdown';
-import { translations } from './translations';
-import { CustomStrategy, StrategyEvaluationResult } from './types';
-import { evaluateStrategy, generateDefaultStrategies } from './strategyEvaluator';
-import SkeletonLoader from './SkeletonLoader';
-
-const TradingChart = lazy(() => import('./components/TradingChart'));
-const StrategySuite = lazy(() => import('./components/StrategySuite'));
+App.tsx
 
 export default function App() {
   // LocalStorage Keys
