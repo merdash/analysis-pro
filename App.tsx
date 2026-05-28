@@ -37,7 +37,8 @@ import {
 import { motion, AnimatePresence } from 'motion/react';
 import { domToPng } from 'modern-screenshot';
 import { fetchBinanceData } from './services/dataService';
-import { OhlcData, calculateFractals } from './lib/calculations';
+import { OhlcData, calculateFractals } from './calculations';
+
 import ReactMarkdown from 'react-markdown';
 import { translations } from './lib/translations';
 import { CustomStrategy, StrategyEvaluationResult } from './types';
